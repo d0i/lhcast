@@ -19,10 +19,15 @@ Copyright 2015 Yusuke DOI <doi@wide.ad.jp>
 
 import struct
 import sys
+import os
 import socket
 import pdb
+import time
 
 from lhcommon import *
+
+# hidden option
+TARGET=os.getenv("LHSND_TARGET", TARGET)
 
 if __name__ == '__main__':
     inf = sys.stdin
@@ -67,6 +72,8 @@ if __name__ == '__main__':
         # then, send the block to the dgram sock.
         pkt_bytes = ''.join(pkt)
         sock.sendto(pkt_bytes, (TARGET, PORT))
+        time.sleep(0.1) #XXX
+
     #
     print 'Done.'
 

@@ -1,6 +1,9 @@
 # LHCAST: multicast send/recv over reed-solomon encoding with longhair lib.
 
-BUG: not ready to handle large file (more than 255 blocks in encoded state)
+MAJOR BUGS:
+- not ready to handle large file (more than 255 blocks in encoded state)
+- not ready for send/receive files over lossy network 
+- see also: BUGS, header of lhsnd.py
 
 ## USAGE
 

@@ -2,3 +2,5 @@
   (should handle multiple segments -- sequential or parallel)
 - SHA1 sum is not yet used (in segment header)
 - I use last 3 bytes as segment index of a file -- is this good?
+- sending/receiving over wlan seems not working well -- maybe I need to consider some network buffers (some buffer overflow?)
+
