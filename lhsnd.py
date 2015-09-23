@@ -72,7 +72,6 @@ if __name__ == '__main__':
         # then, send the block to the dgram sock.
         pkt_bytes = ''.join(pkt)
         sock.sendto(pkt_bytes, (TARGET, PORT))
-        time.sleep(0.1) #XXX
 
     #
     print 'Done.'
