@@ -1,0 +1,4 @@
+- lhjoin currently only supports single segment
+  (should handle multiple segments -- sequential or parallel)
+- SHA1 sum is not yet used (in segment header)
+- I use last 3 bytes as segment index of a file -- is this good?
