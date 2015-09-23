@@ -1,3 +1,7 @@
+/*
+This software is part of lhcast
+Copyright 2015 Yusuke DOI <doi@wide.ad.jp>
+*/
 #include <sys/socket.h>
 #include <sys/types.h>
 #include <sys/stat.h>

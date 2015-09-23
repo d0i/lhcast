@@ -2,6 +2,9 @@
 
 """
 common definitions in lhsnd/lhrcv.py
+
+This software is part of lhcast
+Copyright 2015 Yusuke DOI <doi@wide.ad.jp>
 """
 
 import struct 

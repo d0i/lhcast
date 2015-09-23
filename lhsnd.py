@@ -12,6 +12,9 @@ WISH:
 
 NOW(initial test implementation:
 - just find block boundary and send each block in UDP!
+
+This software is part of lhcast
+Copyright 2015 Yusuke DOI <doi@wide.ad.jp>
 """
 
 import struct

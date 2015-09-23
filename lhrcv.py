@@ -2,6 +2,9 @@
 
 """
 receives udp datagram from lhsnd.py and send it to stdout (expected to be received by lhjoin)
+
+This software is part of lhcast
+Copyright 2015 Yusuke DOI <doi@wide.ad.jp>
 """
 
 

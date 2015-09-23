@@ -1,3 +1,7 @@
+/*
+This software is part of lhcast
+Copyright 2015 Yusuke DOI <doi@wide.ad.jp>
+*/
 #ifndef LHCAST_H
 #define LHCAST_H
 
