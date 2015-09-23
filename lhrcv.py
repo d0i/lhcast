@@ -18,7 +18,7 @@ from lhcommon import *
 import os
 
 # hidden option
-TARGET = os.getopt("LHRCV_TARGET", TARGET)
+TARGET = os.getenv("LHRCV_TARGET", TARGET)
 
 if __name__ == '__main__':
     outf = sys.stdout
